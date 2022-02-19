@@ -1,0 +1,23 @@
+.list-item{
+    background-color: #FFCC5C;
+    height: 5vh;
+    width: 20vw;
+    margin: 2vh auto;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    filter: drop-shadow(0 0 0.25rem #FE3354);
+    cursor: pointer;
+}
+.delete-button{
+    float: right;
+    padding-right: 5px;
+}
+@media  screen and (max-width: 600px) {
+    .list-item{
+      width: 80vw;
+      height: 3vh;
+      justify-content: center;
+      font-size: large;
+    }
+  }
